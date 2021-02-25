@@ -15,15 +15,13 @@
 		A89AC16F25E706C2007E6BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89AC16D25E706C2007E6BC4 /* LaunchScreen.storyboard */; };
 		A89AC18225E7081E007E6BC4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AC18125E7081E007E6BC4 /* APIService.swift */; };
 		A89AC18B25E70874007E6BC4 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AC18A25E70874007E6BC4 /* MenuItem.swift */; };
-		A89AC18E25E70886007E6BC4 /* MenuStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AC18D25E70886007E6BC4 /* MenuStore.swift */; };
 		A89AC19125E708A5007E6BC4 /* MenuListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AC19025E708A5007E6BC4 /* MenuListViewModel.swift */; };
-		A89AC19425E708AF007E6BC4 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AC19325E708AF007E6BC4 /* OrderViewModel.swift */; };
-		A89AC19725E708B8007E6BC4 /* ViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AC19625E708B8007E6BC4 /* ViewMenu.swift */; };
 		A89AC19A25E708C7007E6BC4 /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AC19925E708C7007E6BC4 /* MenuItemTableViewCell.swift */; };
 		A89AC19F25E708F8007E6BC4 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AC19E25E708F8007E6BC4 /* OrderViewController.swift */; };
 		A89AC1A225E70902007E6BC4 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AC1A125E70902007E6BC4 /* Util.swift */; };
 		A8CA9CE125E7704E00FD7150 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA9CE025E7704E00FD7150 /* LoginViewController.swift */; };
 		A8CA9CE425E7705700FD7150 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA9CE325E7705700FD7150 /* LoginViewModel.swift */; };
+		A8CA9CEB25E7758400FD7150 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA9CEA25E7758400FD7150 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,15 +36,13 @@
 		A89AC17025E706C2007E6BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A89AC18125E7081E007E6BC4 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		A89AC18A25E70874007E6BC4 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
-		A89AC18D25E70886007E6BC4 /* MenuStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuStore.swift; sourceTree = "<group>"; };
 		A89AC19025E708A5007E6BC4 /* MenuListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewModel.swift; sourceTree = "<group>"; };
-		A89AC19325E708AF007E6BC4 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
-		A89AC19625E708B8007E6BC4 /* ViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenu.swift; sourceTree = "<group>"; };
 		A89AC19925E708C7007E6BC4 /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
 		A89AC19E25E708F8007E6BC4 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		A89AC1A125E70902007E6BC4 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		A8CA9CE025E7704E00FD7150 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A8CA9CE325E7705700FD7150 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A8CA9CEA25E7758400FD7150 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		BBC7305B63C6D42AA15FAFF5 /* Pods-RxSwift+MVVM_season1&2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+MVVM_season1&2.release.xcconfig"; path = "Target Support Files/Pods-RxSwift+MVVM_season1&2/Pods-RxSwift+MVVM_season1&2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +90,6 @@
 				A89AC17B25E707D7007E6BC4 /* App */,
 				A89AC1AB25E7095B007E6BC4 /* Model */,
 				A89AC1A925E70954007E6BC4 /* Repository */,
-				A89AC1AD25E70960007E6BC4 /* Domain */,
 				A89AC1A725E70942007E6BC4 /* ViewModel */,
 				A89AC17E25E707FC007E6BC4 /* View */,
 				A89AC1A425E70912007E6BC4 /* Util */,
@@ -146,8 +141,6 @@
 			children = (
 				A8CA9CE325E7705700FD7150 /* LoginViewModel.swift */,
 				A89AC19025E708A5007E6BC4 /* MenuListViewModel.swift */,
-				A89AC19325E708AF007E6BC4 /* OrderViewModel.swift */,
-				A89AC19625E708B8007E6BC4 /* ViewMenu.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -164,16 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				A89AC18A25E70874007E6BC4 /* MenuItem.swift */,
+				A8CA9CEA25E7758400FD7150 /* Menu.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		A89AC1AD25E70960007E6BC4 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				A89AC18D25E70886007E6BC4 /* MenuStore.swift */,
-			);
-			path = Domain;
 			sourceTree = "<group>";
 		};
 		B2409E6FB6B03E7DD31A82BE /* Pods */ = {
@@ -300,17 +286,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8CA9CE125E7704E00FD7150 /* LoginViewController.swift in Sources */,
-				A89AC18E25E70886007E6BC4 /* MenuStore.swift in Sources */,
 				A89AC19F25E708F8007E6BC4 /* OrderViewController.swift in Sources */,
-				A89AC19725E708B8007E6BC4 /* ViewMenu.swift in Sources */,
 				A89AC16725E706B9007E6BC4 /* MenuViewController.swift in Sources */,
 				A89AC19A25E708C7007E6BC4 /* MenuItemTableViewCell.swift in Sources */,
 				A89AC18B25E70874007E6BC4 /* MenuItem.swift in Sources */,
 				A89AC19125E708A5007E6BC4 /* MenuListViewModel.swift in Sources */,
+				A8CA9CEB25E7758400FD7150 /* Menu.swift in Sources */,
 				A8CA9CE425E7705700FD7150 /* LoginViewModel.swift in Sources */,
 				A89AC1A225E70902007E6BC4 /* Util.swift in Sources */,
 				A89AC18225E7081E007E6BC4 /* APIService.swift in Sources */,
-				A89AC19425E708AF007E6BC4 /* OrderViewModel.swift in Sources */,
 				A89AC16325E706B9007E6BC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -443,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -462,7 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HBXK2UB5Z3;
 				INFOPLIST_FILE = "RxSwift+MVVM_season1&2/App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HBXK2UB5Z3;
 				INFOPLIST_FILE = "RxSwift+MVVM_season1&2/App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

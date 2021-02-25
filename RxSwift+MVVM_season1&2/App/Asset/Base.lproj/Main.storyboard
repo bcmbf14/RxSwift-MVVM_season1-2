@@ -9,43 +9,19 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Menu View Controller-->
+        <!--Bear Fried Center-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MenuViewController" customModule="RxSwift_MVVM_season1_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="b7Y-52-fhl">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxA-6l-yJ0">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bear Fried Center" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3u-Om-aHZ">
-                                                <rect key="frame" x="20" y="11" width="271" height="38.5"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Nu0-hX-oLR">
-                                                <rect key="frame" x="307" y="11.5" width="37" height="37"/>
-                                                <color key="color" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </activityIndicatorView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="f3u-Om-aHZ" secondAttribute="trailing" constant="20" id="0Ga-Fb-yah"/>
-                                            <constraint firstItem="f3u-Om-aHZ" firstAttribute="centerY" secondItem="gxA-6l-yJ0" secondAttribute="centerY" id="38B-JO-VdL"/>
-                                            <constraint firstItem="f3u-Om-aHZ" firstAttribute="leading" secondItem="gxA-6l-yJ0" secondAttribute="leading" constant="20" id="DEn-8U-e1w"/>
-                                            <constraint firstItem="Nu0-hX-oLR" firstAttribute="leading" secondItem="f3u-Om-aHZ" secondAttribute="trailing" constant="16" id="Ksx-G4-C1L"/>
-                                            <constraint firstItem="Nu0-hX-oLR" firstAttribute="centerY" secondItem="f3u-Om-aHZ" secondAttribute="centerY" id="ZbV-YI-bIs"/>
-                                            <constraint firstAttribute="height" constant="60" id="cjV-Iw-USj"/>
-                                        </constraints>
-                                    </view>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="40" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cOR-Hz-VrD">
-                                        <rect key="frame" x="0.0" y="60" width="414" height="577.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="603.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MenuItemTableViewCell" id="Xdw-yd-ThR" customClass="MenuItemTableViewCell" customModule="RxSwift_MVVM_season1_2" customModuleProvider="target">
@@ -166,7 +142,7 @@
                                         <sections/>
                                     </tableView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kdl-xe-4UQ">
-                                        <rect key="frame" x="0.0" y="637.5" width="414" height="122.5"/>
+                                        <rect key="frame" x="0.0" y="603.5" width="414" height="122.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Orders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orb-mh-GsG">
                                                 <rect key="frame" x="20" y="10" width="95" height="20.5"/>
@@ -228,7 +204,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igv-Xl-GNd">
-                                        <rect key="frame" x="0.0" y="760" width="414" height="48"/>
+                                        <rect key="frame" x="0.0" y="726" width="414" height="48"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="qef-hq-3vl"/>
@@ -244,7 +220,7 @@
                                 </subviews>
                             </stackView>
                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AYH-0I-cUb">
-                                <rect key="frame" x="0.0" y="808" width="414" height="50"/>
+                                <rect key="frame" x="0.0" y="774" width="414" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="jc0-ft-TJN"/>
@@ -263,9 +239,9 @@
                             <constraint firstItem="b7Y-52-fhl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wAv-Cj-xzG"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="BT3-8Z-x6r"/>
+                    <navigationItem key="navigationItem" title="Bear Fried Center" id="BT3-8Z-x6r"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
                     <connections>
-                        <outlet property="activityIndicator" destination="Nu0-hX-oLR" id="Gsj-bj-WVn"/>
                         <outlet property="itemCountLabel" destination="SGx-9Z-PY9" id="9q6-xc-sbF"/>
                         <outlet property="tableView" destination="cOR-Hz-VrD" id="6OK-xO-YWk"/>
                         <outlet property="totalPrice" destination="vsz-cf-vya" id="Gx2-UT-L2q"/>
@@ -273,7 +249,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="883" y="139"/>
+            <point key="canvasLocation" x="882.60869565217399" y="138.61607142857142"/>
         </scene>
         <!--Receipt-->
         <scene sceneID="CaY-lh-gFw">
@@ -471,7 +447,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="UpS-xQ-1eA"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
                                 <state key="normal" title="LOG IN">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>

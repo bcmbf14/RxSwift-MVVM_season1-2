@@ -1,0 +1,32 @@
+PODS:
+  - RxCocoa (6.0.0):
+    - RxRelay (= 6.0.0)
+    - RxSwift (= 6.0.0)
+  - RxRelay (6.0.0):
+    - RxSwift (= 6.0.0)
+  - RxSwift (6.0.0)
+  - RxViewController (2.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+
+DEPENDENCIES:
+  - RxCocoa
+  - RxSwift
+  - RxViewController
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxViewController
+
+SPEC CHECKSUMS:
+  RxCocoa: 3f79328fafa3645b34600f37c31e64c73ae3a80e
+  RxRelay: 8d593be109c06ea850df027351beba614b012ffb
+  RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
+  RxViewController: 56486fa0afd629a1d6b5ba077f3b8cd9dc31b5d2
+
+PODFILE CHECKSUM: 3ba52778d83bbdf0bc8cfdc92f0ae865577e9538
+
+COCOAPODS: 1.10.0.rc.1

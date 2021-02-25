@@ -26,14 +26,6 @@ class OrderViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = false
-        navigationController?.navigationBar.backgroundColor = .black
-        
-        configureNavigationBar()
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        navigationController?.isNavigationBarHidden = true
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -56,24 +48,6 @@ class OrderViewController: UIViewController {
             
         }
     }
-    
-    
-    private func configureNavigationBar() {
-        if #available(iOS 13.0, *) {
-            let navBarAppearance = UINavigationBarAppearance()
-            navBarAppearance.configureWithOpaqueBackground()
-            navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
-            navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-            navBarAppearance.backgroundColor = .black
-            navigationController?.navigationBar.standardAppearance = navBarAppearance
-            navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
-        } else {
-            let statusBar = UIView(frame: (UIApplication.shared.keyWindow?.windowScene?.statusBarManager?.statusBarFrame)!)
-            statusBar.backgroundColor = UIColor.black
-            UIApplication.shared.keyWindow?.addSubview(statusBar)
-        }
-    }
-    
     
     private func updateTextViewHeight() {
         let text = ordersList.text ?? ""

@@ -15,6 +15,11 @@ class MenuViewController: UIViewController {
     var disposeBag = DisposeBag()
     
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.isNavigationBarHidden = false
+    }
+       
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -55,12 +60,6 @@ class MenuViewController: UIViewController {
                 })
         }
     }
-    //
-    //    func showAlert(_ title: String, _ message: String) {
-    //        let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
-    //        alertVC.addAction(UIAlertAction(title: "OK", style: .default))
-    //        present(alertVC, animated: true, completion: nil)
-    //    }
     
     // MARK: - InterfaceBuilder Links
     
